@@ -4,6 +4,7 @@
     text-decoration: none;
     @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 }
 
 /* Header */
@@ -135,5 +136,91 @@
 
 .titulo-header>h1>a{
     color: white;
+}
+
+/* Space */
+
+.space-header-main{
+    height: 150px;
+    background: #1C1D21;
+}
+
+/* Main */
+
+main{
+    color: #1C1D21;
+}
+
+/* About */
+
+.about{
+    background: #1C1D21;
+}
+
+/* About General */
+
+.about-general{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+.text-img{
+    display: flex;
+    justify-content: end;
+    width: 85%;
+    height: 600px;
+    background: #1C1D21;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.div-img-about{
+    align-items: center;
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    margin-right: 200px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+
+.icon-aboutg{
+    margin-top: 90px;
+}
+
+.icon-aboutg>a>img{
+    height: 40px;
+    padding: 0 30px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(272deg) brightness(103%) contrast(103%);
+}
+
+/* About Fronted */
+
+.frontend{
+    height: 600px;
+    display: flex;
+}
+
+.text-icon-fronted{
+    width: 90%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 85px;
+    height: 600px;
 }
 
