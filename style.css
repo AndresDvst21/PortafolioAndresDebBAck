@@ -969,3 +969,274 @@ main{
 .about-sistemas:hover .ubuntu {
     opacity: 1;
 }
+
+/* About Desing */
+
+.about-desing{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-bar-animation-d{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    margin-left: 30px
+}
+
+.section-bar-animation-d>p{
+    transform: rotate(270deg);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.about-desing:hover .section-bar-animation-d>p{
+    opacity: 1;
+}
+
+.bar-animation-outside-left-d{
+    height: 650px;
+    width: 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.about-desing:hover .bar-animation-outside-left-d{
+    opacity: 1;
+}
+
+.bar-animation-inside-left-d{
+    height: 100%;
+    border-radius: 25px;
+    height: 100%;
+    background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+}
+
+.about-desing:hover .bar-animation-inside-left-d{
+    animation-name: animation-bar-left-d;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes animation-bar-left-d{
+
+    0%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 0%;
+    }
+
+    5%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 5%;
+    }
+    
+    10%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 10%;
+    }
+
+    15%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 15%;
+    }
+
+    20%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 20%;
+    }
+
+    25%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 25%;
+    }
+
+    30%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 30%;
+    }
+
+    35%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 35%;
+    }
+
+    40%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 40%;
+    }
+
+    45%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 45%;
+    }
+
+    50%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 50%;
+    }
+
+    
+    55%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 55%;
+    }
+
+    60%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 60%;
+    }
+
+    65%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 65%;
+    }
+
+    70%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 70%;
+    }
+
+    75%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 75%;
+    }
+
+
+    80%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 80%;
+    }
+
+    85%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 85%;
+    }
+
+    90%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 90%;
+    }
+
+    95%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 95%;
+    }
+
+    100%{
+        background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+        height: 100%;
+    }
+}
+
+.text-icon-desing{
+    width: 400%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-icon-desing>div>h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text-icon-desing>div>p{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+.desing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    transform: translateY(550px);
+    transition: transform 2s ease;
+    margin-right: 5%;
+    opacity: 0;
+}
+
+.about-desing:hover .desing-text{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.desing-icons{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-right: 7%;
+}
+
+.desing-icons>img{
+    height: 90px;
+}
+
+.ps{
+    filter: invert(69%) sepia(71%) saturate(3454%) hue-rotate(156deg) brightness(104%) contrast(103%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.ai{
+    filter: invert(73%) sepia(23%) saturate(7497%) hue-rotate(355deg) brightness(103%) contrast(101%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.ae{
+    filter: invert(70%) sepia(49%) saturate(3410%) hue-rotate(217deg) brightness(104%) contrast(101%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.pr{
+    filter: invert(63%) sepia(65%) saturate(2840%) hue-rotate(233deg) brightness(101%) contrast(104%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.ad{
+    filter: invert(16%) sepia(91%) saturate(4947%) hue-rotate(14deg) brightness(102%) contrast(115%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.cd{
+    filter: invert(87%) sepia(99%) saturate(3670%) hue-rotate(25deg) brightness(93%) contrast(88%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.fm{
+    filter: invert(76%) sepia(100%) saturate(268%) hue-rotate(98deg) brightness(94%) contrast(91%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.about-desing:hover .ps,
+.about-desing:hover .ai,
+.about-desing:hover .ae,
+.about-desing:hover .pr,
+.about-desing:hover .ad,
+.about-desing:hover .cd,
+.about-desing:hover .fm {
+    opacity: 1;
+}
