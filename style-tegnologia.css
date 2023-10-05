@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+}
+
+.titulo-tech{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1C1D21;
+}
+
+.titulo-tech>h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.tech-muestra{
+    height: 1200px;
+    background: #1C1D21;
+}
+
+.tech-arriba{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-frontend{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-frontend>p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tech-frontend>.titulo-fron{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tech-img-frontend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.tech-img-frontend>img{
+    height: 60px; 
+}
+
+.html-tech{
+    filter: invert(61%) sepia(85%) saturate(5552%) hue-rotate(351deg) brightness(98%) contrast(103%);
+}
+
+.div-tech-inside-html{
+    width: 300px;
+}
+
+.tech-muestra:hover .div-tech-inside-html{
+    animation-name: animation-bar-html;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.css-tech{
+    filter: invert(20%) sepia(84%) saturate(3704%) hue-rotate(226deg) brightness(95%) contrast(88%);
+}
+
+.boopt-tech{
+    filter: invert(16%) sepia(68%) saturate(3580%) hue-rotate(270deg) brightness(83%) contrast(101%);
+}
+
+.js-tech{
+    filter: invert(99%) sepia(24%) saturate(6838%) hue-rotate(322deg) brightness(112%) contrast(88%);
+}
+
+@keyframes animation-bar-html{
+
+    0%{
+        background: #fd5314;
+        width: 0%;
+    }
+
+    5%{
+        background: #fd5314;
+        width: 5%;
+    }
+    
+    10%{
+        background: #fd5314;
+        width: 10%;
+    }
+
+    15%{
+        background: #fd5314;
+        width: 15%;
+    }
+
+    20%{
+        background: #fd5314;
+        width: 20%;
+    }
+
+    25%{
+        background: #fd5314;
+        width: 25%;
+    }
+
+    30%{
+        background: #fd5314;
+        width: 30%;
+    }
+
+    35%{
+        background: #fd5314;
+        width: 35%;
+    }
+
+    40%{
+        background: #fd5314;
+        width: 40%;
+    }
+
+    45%{
+        background: #fd5314;
+        width: 45%;
+    }
+
+    50%{
+        background: #fd5314;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #fd5314;
+        width: 55%;
+    }
+
+    60%{
+        background: #fd5314;
+        width: 60%;
+    }
+
+    65%{
+        background: #fd5314;
+        width: 65%;
+    }
+
+    70%{
+        background: #fd5314;
+        width: 70%;
+    }
+
+    75%{
+        background: #fd5314;
+        width: 75%;
+    }
+
+
+    80%{
+        background: #fd5314;
+        width: 80%;
+    }
+
+    85%{
+        background: #fd5314;
+        width: 85%;
+    }
+
+    90%{
+        background: #fd5314;
+        width: 90%;
+    }
+
+    95%{
+        background: #fd5314;
+        width: 95%;
+    }
+
+    100%{
+        background: #fd5314;
+        width: 100%;
+    }
+}
+
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.tech-backend-icons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tech-backend{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-backend>.tech-backend-icons>p{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+tech-backend-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
