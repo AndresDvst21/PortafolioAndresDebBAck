@@ -7,6 +7,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 }
 
+
+/* Titulo Tech */
 .titulo-tech{
     width: 100%;
     height: 200px;
@@ -22,11 +24,13 @@
     color: white;
 }
 
+/* Section Tech */
 .tech-muestra{
-    height: 1200px;
+    width: 100%;
     background: #1C1D21;
 }
 
+/* Tech Arriba */
 .tech-arriba{
     width: 100%;
     height: 500px;
@@ -34,13 +38,16 @@
     justify-content: space-around;
 }
 
+
+/* Tech Frontend */
 .tech-frontend{
-    width: 10%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    margin-left: 100px;
 }
 
 .tech-frontend>p{
@@ -70,17 +77,6 @@
     filter: invert(61%) sepia(85%) saturate(5552%) hue-rotate(351deg) brightness(98%) contrast(103%);
 }
 
-.div-tech-inside-html{
-    width: 300px;
-}
-
-.tech-muestra:hover .div-tech-inside-html{
-    animation-name: animation-bar-html;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 .css-tech{
     filter: invert(20%) sepia(84%) saturate(3704%) hue-rotate(226deg) brightness(95%) contrast(88%);
 }
@@ -92,6 +88,26 @@
 .js-tech{
     filter: invert(99%) sepia(24%) saturate(6838%) hue-rotate(322deg) brightness(112%) contrast(88%);
 }
+
+
+/* Bar HTML */
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.div-tech-inside-html{
+    width: 85%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-html{
+    background: #fd5314;
+}
+
 
 @keyframes animation-bar-html{
 
@@ -187,20 +203,90 @@
         width: 85%;
     }
 
-    90%{
-        background: #fd5314;
-        width: 90%;
+}
+
+
+/* Bar CSS */
+
+@keyframes animation-bar-css{
+
+    0%{
+        background: #0878C0;
+        width: 0%;
     }
 
-    95%{
-        background: #fd5314;
-        width: 95%;
+    5%{
+        background: #0878C0;
+        width: 5%;
+    }
+    
+    10%{
+        background: #0878C0;
+        width: 10%;
     }
 
-    100%{
-        background: #fd5314;
-        width: 100%;
+    15%{
+        background: #0878C0;
+        width: 15%;
     }
+
+    20%{
+        background: #0878C0;
+        width: 20%;
+    }
+
+    25%{
+        background: #0878C0;
+        width: 25%;
+    }
+
+    30%{
+        background: #0878C0;
+        width: 30%;
+    }
+
+    35%{
+        background: #0878C0;
+        width: 35%;
+    }
+
+    40%{
+        background: #0878C0;
+        width: 40%;
+    }
+
+    45%{
+        background: #0878C0;
+        width: 45%;
+    }
+
+    50%{
+        background: #0878C0;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #0878C0;
+        width: 55%;
+    }
+
+    60%{
+        background: #0878C0;
+        width: 60%;
+    }
+
+    65%{
+        background: #0878C0;
+        width: 65%;
+    }
+
+    70%{
+        background: #0878C0;
+        width: 70%;
+    }
+
+
 }
 
 .dic-tech-outside{
@@ -210,13 +296,201 @@
     border-radius: 20px;
 }
 
-.tech-backend-icons{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.div-tech-inside-css{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
 }
+
+.tech-muestra:not(hover) .div-tech-inside-css{
+    background: #0878C0;
+}
+
+
+/* Bar Boopstrap */
+
+@keyframes animation-bar-btp{
+
+    0%{
+        background: #5B4581;
+        width: 0%;
+    }
+
+    5%{
+        background: #5B4581;
+        width: 5%;
+    }
+    
+    10%{
+        background: #5B4581;
+        width: 10%;
+    }
+
+    15%{
+        background: #5B4581;
+        width: 15%;
+    }
+
+    20%{
+        background: #5B4581;
+        width: 20%;
+    }
+
+    25%{
+        background: #5B4581;
+        width: 25%;
+    }
+
+    30%{
+        background: #5B4581;
+        width: 30%;
+    }
+
+    35%{
+        background: #5B4581;
+        width: 35%;
+    }
+
+    40%{
+        background: #5B4581;
+        width: 40%;
+    }
+
+    45%{
+        background: #5B4581;
+        width: 45%;
+    }
+
+    50%{
+        background: #5B4581;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #5B4581;
+        width: 55%;
+    }
+
+    60%{
+        background: #5B4581;
+        width: 60%;
+    }
+
+    65%{
+        background: #5B4581;
+        width: 65%;
+    }
+
+    70%{
+        background: #5B4581;
+        width: 70%;
+    }
+
+
+}
+
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.div-tech-inside-btp{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-btp{
+    background: #5B4581;
+}
+
+/* Bar JavaScript */
+
+@keyframes animation-bar-js{
+
+    0%{
+        background: #F7E025;
+        width: 0%;
+    }
+
+    5%{
+        background: #F7E025;
+        width: 5%;
+    }
+    
+    10%{
+        background: #F7E025;
+        width: 10%;
+    }
+
+    15%{
+        background: #F7E025;
+        width: 15%;
+    }
+
+    20%{
+        background: #F7E025;
+        width: 20%;
+    }
+
+    25%{
+        background: #F7E025;
+        width: 25%;
+    }
+
+    30%{
+        background: #F7E025;
+        width: 30%;
+    }
+
+    35%{
+        background: #F7E025;
+        width: 35%;
+    }
+
+    40%{
+        background: #F7E025;
+        width: 40%;
+    }
+
+    45%{
+        background: #F7E025;
+        width: 45%;
+    }
+
+    50%{
+        background: #F7E025;
+        width: 50%;
+    }
+
+
+}
+
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.div-tech-inside-js{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-js{
+    background: #F7E025;
+}
+
+
+/* Tech Backend */
+
 .tech-backend{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -224,15 +498,1144 @@
     align-items: center;
 }
 
-.tech-backend>.tech-backend-icons>p{
+.tech-backend>p{
     color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tech-backend>.titulo-back{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
     font-weight: 700;
 }
 
-tech-backend-icons{
+.tech-img-backend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.tech-img-backend>img{
+    height: 60px; 
+}
+
+.cshar-tech{
+    filter: invert(14%) sepia(62%) saturate(2837%) hue-rotate(272deg) brightness(91%) contrast(94%);
+}
+
+.sql-tech{
+    filter: invert(30%) sepia(72%) saturate(3617%) hue-rotate(191deg) brightness(98%) contrast(94%);
+}
+
+.mysql-tech{
+    filter: invert(24%) sepia(85%) saturate(1802%) hue-rotate(168deg) brightness(96%) contrast(101%);
+}
+
+.server-tech{
+    filter: invert(20%) sepia(99%) saturate(7096%) hue-rotate(13deg) brightness(116%) contrast(86%);
+}
+
+
+@keyframes animation-bar-cshar{
+
+    0%{
+        background: #642076;
+        width: 0%;
+    }
+
+    5%{
+        background: #642076;
+        width: 5%;
+    }
+    
+    10%{
+        background: #642076;
+        width: 10%;
+    }
+
+    15%{
+        background: #642076;
+        width: 15%;
+    }
+
+    20%{
+        background: #642076;
+        width: 20%;
+    }
+
+    25%{
+        background: #642076;
+        width: 25%;
+    }
+
+    30%{
+        background: #642076;
+        width: 30%;
+    }
+
+    35%{
+        background: #642076;
+        width: 35%;
+    }
+
+    40%{
+        background: #642076;
+        width: 40%;
+    }
+
+    45%{
+        background: #642076;
+        width: 45%;
+    }
+
+}
+
+.div-tech-inside-cshar{
+    width: 45%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-cshar{
+    background: #642076;
+}
+
+@keyframes animation-bar-sql{
+
+    0%{
+        background: #087cd8;
+        width: 0%;
+    }
+
+    5%{
+        background: #087cd8;
+        width: 5%;
+    }
+    
+    10%{
+        background: #087cd8;
+        width: 10%;
+    }
+
+    15%{
+        background: #087cd8;
+        width: 15%;
+    }
+
+    20%{
+        background: #087cd8;
+        width: 20%;
+    }
+
+    25%{
+        background: #087cd8;
+        width: 25%;
+    }
+
+    30%{
+        background: #087cd8;
+        width: 30%;
+    }
+
+    35%{
+        background: #087cd8;
+        width: 35%;
+    }
+
+    40%{
+        background: #087cd8;
+        width: 40%;
+    }
+
+    45%{
+        background: #087cd8;
+        width: 45%;
+    }
+
+    50%{
+        background: #087cd8;
+        width: 50%;
+    }
+
+
+    55%{
+        background: #087cd8;
+        width: 55%;
+    }
+
+
+    60%{
+        background: #087cd8;
+        width: 60%;
+    }
+
+}
+
+.div-tech-inside-sql{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-sql{
+    background: #087cd8;
+}
+
+@keyframes animation-bar-mysql{
+
+    0%{
+        background: #00718b;
+        width: 0%;
+    }
+
+    5%{
+        background: #00718b;
+        width: 5%;
+    }
+    
+    10%{
+        background: #00718b;
+        width: 10%;
+    }
+
+    15%{
+        background: #00718b;
+        width: 15%;
+    }
+
+    20%{
+        background: #00718b;
+        width: 20%;
+    }
+
+    25%{
+        background: #00718b;
+        width: 25%;
+    }
+
+    30%{
+        background: #00718b;
+        width: 30%;
+    }
+
+    35%{
+        background: #00718b;
+        width: 35%;
+    }
+
+    40%{
+        background: #00718b;
+        width: 40%;
+    }
+
+    45%{
+        background: #00718b;
+        width: 45%;
+    }
+
+    50%{
+        background: #00718b;
+        width: 50%;
+    }
+
+
+    55%{
+        background: #00718b;
+        width: 55%;
+    }
+
+
+    60%{
+        background: #00718b;
+        width: 60%;
+    }
+
+}
+
+.div-tech-inside-mysql{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-mysql{
+    background: #00718b;
+}
+
+@keyframes animation-bar-server{
+
+    0%{
+        background: #ef2d2a;
+        width: 0%;
+    }
+
+    5%{
+        background: #ef2d2a;
+        width: 5%;
+    }
+    
+    10%{
+        background: #ef2d2a;
+        width: 10%;
+    }
+
+    15%{
+        background: #ef2d2a;
+        width: 15%;
+    }
+
+    20%{
+        background: #ef2d2a;
+        width: 20%;
+    }
+
+    25%{
+        background: #ef2d2a;
+        width: 25%;
+    }
+
+    30%{
+        background: #ef2d2a;
+        width: 30%;
+    }
+
+    35%{
+        background: #ef2d2a;
+        width: 35%;
+    }
+
+    40%{
+        background: #ef2d2a;
+        width: 40%;
+    }
+
+    45%{
+        background: #ef2d2a;
+        width: 45%;
+    }
+
+    50%{
+        background: #ef2d2a;
+        width: 50%;
+    }
+
+
+    55%{
+        background: #ef2d2a;
+        width: 55%;
+    }
+
+
+    60%{
+        background: #ef2d2a;
+        width: 60%;
+    }
+
+}
+
+.div-tech-inside-server{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-server{
+    background: #ef2d2a;
+}
+
+.space-about-tech-2{
+    height: 200px;
+}
+
+.tech-abajo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-sistemas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tech-sistemas{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-sistemas>p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.tech-img-sistemas{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 3%;
+}
+
+.tech-img-sistemas>img{
+    height: 60px; 
+}
+
+.pc-tech{
+    filter: invert(46%) sepia(94%) saturate(396%) hue-rotate(324deg) brightness(96%) contrast(88%);
+}
+
+.debian-tech{
+    filter: invert(10%) sepia(87%) saturate(6851%) hue-rotate(333deg) brightness(96%) contrast(89%);
+}
+
+.mint-tech{
+    filter: invert(62%) sepia(58%) saturate(440%) hue-rotate(54deg) brightness(91%) contrast(92%);
+}
+
+.ubuntu-tech{
+    filter: invert(50%) sepia(95%) saturate(4284%) hue-rotate(351deg) brightness(90%) contrast(93%);
+}
+
+.windows-tech{
+    filter: invert(48%) sepia(84%) saturate(1422%) hue-rotate(162deg) brightness(100%) contrast(94%);
+}
+
+.lan-tech{
+    filter: invert(63%) sepia(100%) saturate(1947%) hue-rotate(166deg) brightness(102%) contrast(101%);
+}
+
+.barras-sistemas-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.barras-sistemas-1>div>p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6%;
+}
+
+.barras-sistemas-1>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+/* Bar Hardwared */
+.div-tech-inside-hardwared{
+    width: 85%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-hardwared{
+    background: #E76E51;
+}
+
+
+@keyframes animation-bar-hardwared{
+
+    0%{
+        background: #E76E51;
+        width: 0%;
+    }
+
+    5%{
+        background: #E76E51;
+        width: 5%;
+    }
+    
+    10%{
+        background: #E76E51;
+        width: 10%;
+    }
+
+    15%{
+        background: #E76E51;
+        width: 15%;
+    }
+
+    20%{
+        background: #E76E51;
+        width: 20%;
+    }
+
+    25%{
+        background: #E76E51;
+        width: 25%;
+    }
+
+    30%{
+        background: #E76E51;
+        width: 30%;
+    }
+
+    35%{
+        background: #E76E51;
+        width: 35%;
+    }
+
+    40%{
+        background: #E76E51;
+        width: 40%;
+    }
+
+    45%{
+        background: #E76E51;
+        width: 45%;
+    }
+
+    50%{
+        background: #E76E51;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #E76E51;
+        width: 55%;
+    }
+
+    60%{
+        background: #E76E51;
+        width: 60%;
+    }
+
+    65%{
+        background: #E76E51;
+        width: 65%;
+    }
+
+    70%{
+        background: #E76E51;
+        width: 70%;
+    }
+
+    75%{
+        background: #E76E51;
+        width: 75%;
+    }
+
+
+    80%{
+        background: #E76E51;
+        width: 80%;
+    }
+
+    85%{
+        background: #E76E51;
+        width: 85%;
+    }
+
+}
+
+/* Bar Debian */
+.div-tech-inside-debian{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-debian{
+    background: #DE0E58;
+}
+
+
+@keyframes animation-bar-debian{
+
+    0%{
+        background: #DE0E58;
+        width: 0%;
+    }
+
+    5%{
+        background: #DE0E58;
+        width: 5%;
+    }
+    
+    10%{
+        background: #DE0E58;
+        width: 10%;
+    }
+
+    15%{
+        background: #DE0E58;
+        width: 15%;
+    }
+
+    20%{
+        background: #DE0E58;
+        width: 20%;
+    }
+
+    25%{
+        background: #DE0E58;
+        width: 25%;
+    }
+
+    30%{
+        background: #DE0E58;
+        width: 30%;
+    }
+
+    35%{
+        background: #DE0E58;
+        width: 35%;
+    }
+
+    40%{
+        background: #DE0E58;
+        width: 40%;
+    }
+
+    45%{
+        background: #DE0E58;
+        width: 45%;
+    }
+
+    50%{
+        background: #DE0E58;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #DE0E58;
+        width: 55%;
+    }
+
+    60%{
+        background: #DE0E58;
+        width: 60%;
+    }
+
+}
+
+
+/* Bar Mint */
+
+.div-tech-inside-mint{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-mint{
+    background: #6EB743;
+}
+
+
+@keyframes animation-bar-mint{
+
+    0%{
+        background: #6EB743;
+        width: 0%;
+    }
+
+    5%{
+        background: #6EB743;
+        width: 5%;
+    }
+    
+    10%{
+        background: #6EB743;
+        width: 10%;
+    }
+
+    15%{
+        background: #6EB743;
+        width: 15%;
+    }
+
+    20%{
+        background: #6EB743;
+        width: 20%;
+    }
+
+    25%{
+        background: #6EB743;
+        width: 25%;
+    }
+
+    30%{
+        background: #6EB743;
+        width: 30%;
+    }
+
+    35%{
+        background: #6EB743;
+        width: 35%;
+    }
+
+    40%{
+        background: #6EB743;
+        width: 40%;
+    }
+
+    45%{
+        background: #6EB743;
+        width: 45%;
+    }
+
+    50%{
+        background: #6EB743;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #6EB743;
+        width: 55%;
+    }
+
+    60%{
+        background: #6EB743;
+        width: 60%;
+    }
+
+    65%{
+        background: #6EB743;
+        width: 65%;
+    }
+
+    70%{
+        background: #6EB743;
+        width: 70%;
+    }
+
+}
+
+/* Bar Ubuntu */
+
+.div-tech-inside-ubuntu{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-ubuntu{
+    background: #DE4E1C;
+}
+
+
+@keyframes animation-bar-ubuntu{
+
+    0%{
+        background: #DE4E1C;
+        width: 0%;
+    }
+
+    5%{
+        background: #DE4E1C;
+        width: 5%;
+    }
+    
+    10%{
+        background: #DE4E1C;
+        width: 10%;
+    }
+
+    15%{
+        background: #DE4E1C;
+        width: 15%;
+    }
+
+    20%{
+        background: #DE4E1C;
+        width: 20%;
+    }
+
+    25%{
+        background: #DE4E1C;
+        width: 25%;
+    }
+
+    30%{
+        background: #DE4E1C;
+        width: 30%;
+    }
+
+    35%{
+        background: #DE4E1C;
+        width: 35%;
+    }
+
+    40%{
+        background: #DE4E1C;
+        width: 40%;
+    }
+
+    45%{
+        background: #DE4E1C;
+        width: 45%;
+    }
+
+    50%{
+        background: #DE4E1C;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #DE4E1C;
+        width: 55%;
+    }
+
+    60%{
+        background: #DE4E1C;
+        width: 60%;
+    }
+
+    65%{
+        background: #DE4E1C;
+        width: 65%;
+    }
+
+    70%{
+        background: #DE4E1C;
+        width: 70%;
+    }
+
+}
+
+
+/* Sistemas Abajo */
+
+.barras-sistemas-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.barras-sistemas-2>div>p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6%;
+}
+
+.barras-sistemas-2>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dic-tech-outside{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* Bar Windows */
+
+.div-tech-inside-windows{
+    width: 85%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-windows{
+    background: #08B0F1;
+}
+
+
+@keyframes animation-bar-windows{
+
+    0%{
+        background: #08B0F1;
+        width: 0%;
+    }
+
+    5%{
+        background: #08B0F1;
+        width: 5%;
+    }
+    
+    10%{
+        background: #08B0F1;
+        width: 10%;
+    }
+
+    15%{
+        background: #08B0F1;
+        width: 15%;
+    }
+
+    20%{
+        background: #08B0F1;
+        width: 20%;
+    }
+
+    25%{
+        background: #08B0F1;
+        width: 25%;
+    }
+
+    30%{
+        background: #08B0F1;
+        width: 30%;
+    }
+
+    35%{
+        background: #08B0F1;
+        width: 35%;
+    }
+
+    40%{
+        background: #08B0F1;
+        width: 40%;
+    }
+
+    45%{
+        background: #08B0F1;
+        width: 45%;
+    }
+
+    50%{
+        background: #08B0F1;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #08B0F1;
+        width: 55%;
+    }
+
+    60%{
+        background: #08B0F1;
+        width: 60%;
+    }
+
+    65%{
+        background: #08B0F1;
+        width: 65%;
+    }
+
+    70%{
+        background: #08B0F1;
+        width: 70%;
+    }
+
+    75%{
+        background: #08B0F1;
+        width: 75%;
+    }
+
+    80%{
+        background: #08B0F1;
+        width: 80%;
+    }
+
+    85%{
+        background: #08B0F1;
+        width: 85%;
+    }
+
+}
+
+/* Bar Lan */
+
+.div-tech-inside-lan{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.tech-muestra:not(hover) .div-tech-inside-lan{
+    background: #28C2FF;
+}
+
+
+@keyframes animation-bar-lan{
+
+    0%{
+        background: #28C2FF;
+        width: 0%;
+    }
+
+    5%{
+        background: #28C2FF;
+        width: 5%;
+    }
+    
+    10%{
+        background: #28C2FF;
+        width: 10%;
+    }
+
+    15%{
+        background: #28C2FF;
+        width: 15%;
+    }
+
+    20%{
+        background: #28C2FF;
+        width: 20%;
+    }
+
+    25%{
+        background: #28C2FF;
+        width: 25%;
+    }
+
+    30%{
+        background: #28C2FF;
+        width: 30%;
+    }
+
+    35%{
+        background: #28C2FF;
+        width: 35%;
+    }
+
+    40%{
+        background: #28C2FF;
+        width: 40%;
+    }
+
+    45%{
+        background: #28C2FF;
+        width: 45%;
+    }
+
+    50%{
+        background: #28C2FF;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #28C2FF;
+        width: 55%;
+    }
+
+    60%{
+        background: #28C2FF;
+        width: 60%;
+    }
+
+}
+
+/* Hover Hovered */
+
+.tech-muestra .div-tech-inside-html.hovered{
+    animation-name: animation-bar-html;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-css.hovered{
+    animation-name: animation-bar-css;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-btp.hovered{
+    animation-name: animation-bar-btp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-js.hovered{
+    animation-name: animation-bar-js;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-cshar.hovered{
+    animation-name: animation-bar-cshar;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-sql.hovered{
+    animation-name: animation-bar-sql;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-mysql.hovered{
+    animation-name: animation-bar-mysql;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-muestra .div-tech-inside-server.hovered{
+    animation-name: animation-bar-server;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-hardwared.hovered{
+    animation-name: animation-bar-hardwared;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-debian.hovered{
+    animation-name: animation-bar-debian;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-mint.hovered{
+    animation-name: animation-bar-mint;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-ubuntu.hovered{
+    animation-name: animation-bar-ubuntu;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-windows.hovered{
+    animation-name: animation-bar-windows;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tech-abajo .div-tech-inside-lan.hovered{
+    animation-name: animation-bar-lan;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }

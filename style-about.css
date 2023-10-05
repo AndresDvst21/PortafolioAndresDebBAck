@@ -58,9 +58,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-frontend:hover .section-bar-animation>p{
-    opacity: 1;
-}
 
 .bar-animation-outside-right{
     height: 650px;
@@ -72,22 +69,13 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-frontend:hover .bar-animation-outside-right{
-    opacity: 1;
-}
+
 
 .bar-animation-inside-right{
     height: 100%;
     border-radius: 25px;
     height: 100%;
     background: linear-gradient(180deg, #bf90f2 0, #8f6cd8 50%, #594bbf 100%);
-}
-
-.about-frontend:hover .bar-animation-inside-right{
-    animation-name: animation-bar;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 @keyframes animation-bar{
@@ -233,10 +221,6 @@ main{
     transition: transform 2s ease;
 }
 
-.about-frontend:hover .frontend-text{
-    transform: translateY(0);
-}
-
 .frontend-icons{
     width: 100px;
     display: flex;
@@ -274,26 +258,9 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-frontend:hover .html{
-    opacity: 1;
-}
-
-.about-frontend:hover .css{
-    opacity: 1;
-}
-
-.about-frontend:hover .boopst{
-    opacity: 1;
-}
-
-.about-frontend:hover .js{
-    opacity: 1;
-}
-
-
 .space-about{
     width: 100%;
-    height: 120px;
+    height: 500px;
     background: #1C1D21;
 }
 
@@ -323,10 +290,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-backend:hover .section-bar-animation-b>p{
-    opacity: 1;
-}
-
 .bar-animation-outside-left-b{
     height: 650px;
     width: 30px;
@@ -337,22 +300,11 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-backend:hover .bar-animation-outside-left-b{
-    opacity: 1;
-}
-
 .bar-animation-inside-left-b{
     height: 100%;
     border-radius: 25px;
     height: 100%;
     background: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
-}
-
-.about-backend:hover .bar-animation-inside-left-b{
-    animation-name: animation-bar-left-b;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards
 }
 
 @keyframes animation-bar-left-b{
@@ -492,15 +444,10 @@ main{
     justify-content: center;
     align-items: center;
     width: 75%;
-    transform: translateY(-550px);
+    transform: translateY(-300px);
     transition: transform 2s ease;
     margin-right: 5%;
     opacity: 0;
-}
-
-.about-backend:hover .backend-text{
-    transform: translateY(0);
-    opacity: 1;
 }
 
 .backend-icons{
@@ -558,15 +505,6 @@ main{
     transition: opacity 2s ease
 }
 
-.about-backend:hover .cshar,
-.about-backend:hover .git,
-.about-backend:hover .mysql, 
-.about-backend:hover .nodejs,
-.about-backend:hover .react,
-.about-backend:hover .sql,
-.about-backend:hover .server{
-    opacity: 1;
-}
 
 
 /* About Sistemas */
@@ -596,9 +534,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-sistemas:hover .section-bar-animation-s>p{
-    opacity: 1;
-}
 
 .bar-animation-outside-right-s{
     height: 650px;
@@ -610,22 +545,11 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-sistemas:hover .bar-animation-outside-right-s{
-    opacity: 1;
-}
-
 .bar-animation-inside-right-s{
     height: 100%;
     border-radius: 25px;
     height: 100%;
     background: radial-gradient(circle at 50% -20.71%, #ffff52 0, #e8ff56 10%, #cbfa5c 20%, #acf162 30%, #8de668 40%, #6cd86c 50%, #49c970 60%, #1abd74 70%, #00b279 80%, #00a97e 90%, #00a184 100%);
-}
-
-.about-sistemas:hover .bar-animation-inside-right-s{
-    animation-name: animation-bar-s;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 @keyframes animation-bar-s{
@@ -770,10 +694,6 @@ main{
     transition: transform 2s ease;
 }
 
-.about-sistemas:hover .sistemas-text{
-    transform: translateY(0);
-}
-
 .sistemas-icons{
     width: 100px;
     display: flex;
@@ -829,16 +749,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-sistemas:hover .wifi,
-.about-sistemas:hover .lan,
-.about-sistemas:hover .pc,
-.about-sistemas:hover .windows,
-.about-sistemas:hover .debian,
-.about-sistemas:hover .mint,
-.about-sistemas:hover .ubuntu {
-    opacity: 1;
-}
-
 /* About Desing */
 
 .about-desing{
@@ -865,9 +775,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-desing:hover .section-bar-animation-d>p{
-    opacity: 1;
-}
 
 .bar-animation-outside-left-d{
     height: 650px;
@@ -879,22 +786,12 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-desing:hover .bar-animation-outside-left-d{
-    opacity: 1;
-}
 
 .bar-animation-inside-left-d{
     height: 100%;
     border-radius: 25px;
     height: 100%;
     background: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
-}
-
-.about-desing:hover .bar-animation-inside-left-d{
-    animation-name: animation-bar-left-d;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards
 }
 
 @keyframes animation-bar-left-d{
@@ -1034,15 +931,10 @@ main{
     justify-content: center;
     align-items: center;
     width: 75%;
-    transform: translateY(550px);
+    transform: translateY(300px);
     transition: transform 2s ease;
     margin-right: 5%;
     opacity: 0;
-}
-
-.about-desing:hover .desing-text{
-    transform: translateY(0);
-    opacity: 1;
 }
 
 .desing-icons{
@@ -1100,15 +992,6 @@ main{
     transition: opacity 2s ease;
 }
 
-.about-desing:hover .ps,
-.about-desing:hover .ai,
-.about-desing:hover .ae,
-.about-desing:hover .pr,
-.about-desing:hover .ad,
-.about-desing:hover .cd,
-.about-desing:hover .fm {
-    opacity: 1;
-}
 
 .space-about-tech{
     height: 500px;
@@ -1116,3 +999,121 @@ main{
     width: 100%;
 }
 
+
+/* Hover Hovered */
+
+.about-frontend .section-bar-animation > p.hovered{
+    opacity: 1;
+}
+
+.about-frontend .bar-animation-outside-right.hovered{
+    opacity: 1;
+}
+
+.about-frontend .bar-animation-inside-right.hovered{
+    animation-name: animation-bar;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+.about-frontend .frontend-text.hovered{
+    transform: translateY(0);
+}
+
+.about-frontend .html.hovered,
+.about-frontend .css.hovered,
+.about-frontend .boopst.hovered,
+.about-frontend .js.hovered {
+    opacity: 1;
+}
+
+.about-backend .section-bar-animation-b > p.hovered{
+    opacity: 1;
+}
+
+.about-backend .bar-animation-outside-left-b.hovered{
+    opacity: 1;
+}
+
+.about-backend .bar-animation-inside-left-b.hovered{
+    animation-name: animation-bar-left-b;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.about-backend .backend-text.hovered{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.about-backend .cshar.hovered,
+.about-backend .git.hovered,
+.about-backend .mysql.hovered,
+.about-backend .nodejs.hovered,
+.about-backend .react.hovered,
+.about-backend .sql.hovered,
+.about-backend .server.hovered{
+    opacity: 1;
+}
+
+.about-sistemas .section-bar-animation-s > p.hovered{
+    opacity: 1;
+}
+
+.about-sistemas .bar-animation-outside-right-s.hovered{
+    opacity: 1;
+}
+.about-sistemas .bar-animation-inside-right-s.hovered{
+    animation-name: animation-bar-s;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.about-sistemas .sistemas-text.hovered{
+    transform: translateX(0);
+}
+
+.about-sistemas .wifi.hovered,
+.about-sistemas .lan.hovered,
+.about-sistemas .pc.hovered,
+.about-sistemas .windows.hovered,
+.about-sistemas .debian.hovered,
+.about-sistemas .mint.hovered,
+.about-sistemas .ubuntu.hovered{
+    opacity: 1;
+}
+
+.about-desing .section-bar-animation-d > p.hovered{
+    opacity: 1;
+}
+
+.about-desing .bar-animation-outside-left-d.hovered{
+    opacity: 1;
+}
+
+.about-desing .bar-animation-inside-left-d.hovered{
+    animation-name: animation-bar-left-d;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.about-desing .desing-text.hovered{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.about-desing .ps.hovered,
+.about-desing .ai.hovered,
+.about-desing .ae.hovered,
+.about-desing .pr.hovered,
+.about-desing .ad.hovered,
+.about-desing .cd.hovered,
+.about-desing .fm.hovered {
+    opacity: 1;
+}
