@@ -76,6 +76,13 @@ window.addEventListener('scroll', () => {
         'tech-abajo .div-tech-inside-ubuntu',
         'tech-abajo .div-tech-inside-windows',
         'tech-abajo .div-tech-inside-lan',
+        'section-skills .div-tech-inside-ps',
+        'section-skills .div-tech-inside-ai',
+        'section-skills .div-tech-inside-ae',
+        'section-skills .div-tech-inside-pr',
+        'section-skills .div-tech-inside-as',
+        'section-skills .div-tech-inside-cd',
+        'section-skills .div-tech-inside-wf',
     ];
     applyHoverEffectOnScroll(classesToHover, 30);
 });
@@ -149,7 +156,21 @@ window.addEventListener('scroll', () => {
         'about-desing .pr',
         'about-desing .ad',
         'about-desing .cd',
-        'about-desing .fm'
+        'about-desing .fm',
+        'tech-muestra .div-tech-inside-html',
+        'tech-muestra .div-tech-inside-css',
+        'tech-muestra .div-tech-inside-btp',
+        'tech-muestra .div-tech-inside-js',
+        'tech-muestra .div-tech-inside-cshar',
+        'tech-muestra .div-tech-inside-sql',
+        'tech-muestra .div-tech-inside-server',
+        'tech-muestra .div-tech-inside-mysql',
+        'tech-abajo .div-tech-inside-hardwared',
+        'tech-abajo .div-tech-inside-debian',
+        'tech-abajo .div-tech-inside-mint',
+        'tech-abajo .div-tech-inside-ubuntu',
+        'tech-abajo .div-tech-inside-windows',
+        'tech-abajo .div-tech-inside-lan',
     ];
     applyHoverEffectOnScrollFromBottom(classesToHover, 30);
 });

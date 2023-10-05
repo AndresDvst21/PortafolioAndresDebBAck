@@ -1,0 +1,735 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+}
+
+.titulo-skills{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1C1D21;
+}
+
+.titulo-skills>h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.section-skills{
+    width: 100%;
+    background: #1C1D21;
+}
+
+.div-img-skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+}
+.div-img-skills>img{
+    height: 60px; 
+}
+
+.ps-skills{
+    filter: invert(57%) sepia(11%) saturate(5707%) hue-rotate(161deg) brightness(108%) contrast(104%);
+}
+
+.ai-skills{
+    filter: invert(79%) sepia(32%) saturate(6927%) hue-rotate(351deg) brightness(101%) contrast(108%);
+}
+
+.ae-skills{
+    filter: invert(74%) sepia(48%) saturate(4105%) hue-rotate(216deg) brightness(101%) contrast(106%);
+}
+
+.pr-skills{
+    filter: invert(60%) sepia(7%) saturate(4834%) hue-rotate(230deg) brightness(101%) contrast(112%);
+}
+
+.ad-skills{
+    filter: invert(13%) sepia(98%) saturate(5472%) hue-rotate(9deg) brightness(107%) contrast(103%);
+}
+
+.cd-skills{
+    filter: invert(94%) sepia(31%) saturate(3320%) hue-rotate(24deg) brightness(94%) contrast(86%);
+}
+
+.wf-skills{
+    filter: invert(82%) sepia(12%) saturate(1475%) hue-rotate(112deg) brightness(89%) contrast(113%);
+}
+
+.barras-skills-arriba{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.barras-skills-arriba>div>p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6%;
+}
+
+.barras-skills-arriba>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Barras */
+
+/* Photoshop */
+
+.div-tech-inside-ps{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-ps{
+    background: #02CBFF;
+}
+
+
+@keyframes animation-bar-ps{
+
+    0%{
+        background: #02CBFF;
+        width: 0%;
+    }
+
+    5%{
+        background: #02CBFF;
+        width: 5%;
+    }
+    
+    10%{
+        background: #02CBFF;
+        width: 10%;
+    }
+
+    15%{
+        background: #02CBFF;
+        width: 15%;
+    }
+
+    20%{
+        background: #02CBFF;
+        width: 20%;
+    }
+
+    25%{
+        background: #02CBFF;
+        width: 25%;
+    }
+
+    30%{
+        background: #02CBFF;
+        width: 30%;
+    }
+
+    35%{
+        background: #02CBFF;
+        width: 35%;
+    }
+
+    40%{
+        background: #02CBFF;
+        width: 40%;
+    }
+
+    45%{
+        background: #02CBFF;
+        width: 45%;
+    }
+
+    50%{
+        background: #02CBFF;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #02CBFF;
+        width: 55%;
+    }
+
+    60%{
+        background: #02CBFF;
+        width: 60%;
+    }
+
+    65%{
+        background: #02CBFF;
+        width: 65%;
+    }
+
+    70%{
+        background: #02CBFF;
+        width: 70%;
+    }
+
+}
+
+/* ilustrator */
+
+.div-tech-inside-ai{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-ai{
+    background: #FF9A07;
+}
+
+
+@keyframes animation-bar-ai{
+
+    0%{
+        background: #FF9A07;
+        width: 0%;
+    }
+
+    5%{
+        background: #FF9A07;
+        width: 5%;
+    }
+    
+    10%{
+        background: #FF9A07;
+        width: 10%;
+    }
+
+    15%{
+        background: #FF9A07;
+        width: 15%;
+    }
+
+    20%{
+        background: #FF9A07;
+        width: 20%;
+    }
+
+    25%{
+        background: #FF9A07;
+        width: 25%;
+    }
+
+    30%{
+        background: #FF9A07;
+        width: 30%;
+    }
+
+    35%{
+        background: #FF9A07;
+        width: 35%;
+    }
+
+    40%{
+        background: #FF9A07;
+        width: 40%;
+    }
+
+    45%{
+        background: #FF9A07;
+        width: 45%;
+    }
+
+    50%{
+        background: #FF9A07;
+        width: 50%;
+    }
+
+    
+    55%{
+        background: #FF9A07;
+        width: 55%;
+    }
+
+    60%{
+        background: #FF9A07;
+        width: 60%;
+    }
+
+    65%{
+        background: #FF9A07;
+        width: 65%;
+    }
+
+    70%{
+        background: #FF9A07;
+        width: 70%;
+    }
+
+}
+
+/* After Effecs */
+
+.div-tech-inside-ae{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-ae{
+    background: #D090FF;
+}
+
+
+@keyframes animation-bar-ae{
+
+    0%{
+        background: #D090FF;
+        width: 0%;
+    }
+
+    5%{
+        background: #D090FF;
+        width: 5%;
+    }
+    
+    10%{
+        background: #D090FF;
+        width: 10%;
+    }
+
+    15%{
+        background: #D090FF;
+        width: 15%;
+    }
+
+    20%{
+        background: #D090FF;
+        width: 20%;
+    }
+
+    25%{
+        background: #D090FF;
+        width: 25%;
+    }
+
+    30%{
+        background: #D090FF;
+        width: 30%;
+    }
+
+    35%{
+        background: #D090FF;
+        width: 35%;
+    }
+
+    40%{
+        background: #D090FF;
+        width: 40%;
+    }
+
+    45%{
+        background: #D090FF;
+        width: 45%;
+    }
+
+    50%{
+        background: #D090FF;
+        width: 50%;
+    }
+}
+
+/* Premiere */
+
+.div-tech-inside-pr{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-pr{
+    background: #EA7AFF;
+}
+
+
+@keyframes animation-bar-pr{
+
+    0%{
+        background: #EA7AFF;
+        width: 0%;
+    }
+
+    5%{
+        background: #EA7AFF;
+        width: 5%;
+    }
+    
+    10%{
+        background: #EA7AFF;
+        width: 10%;
+    }
+
+    15%{
+        background: #EA7AFF;
+        width: 15%;
+    }
+
+    20%{
+        background: #EA7AFF;
+        width: 20%;
+    }
+
+    25%{
+        background: #EA7AFF;
+        width: 25%;
+    }
+
+    30%{
+        background: #EA7AFF;
+        width: 30%;
+    }
+
+    35%{
+        background: #EA7AFF;
+        width: 35%;
+    }
+
+    40%{
+        background: #EA7AFF;
+        width: 40%;
+    }
+
+    45%{
+        background: #EA7AFF;
+        width: 45%;
+    }
+
+    50%{
+        background: #EA7AFF;
+        width: 50%;
+    }
+}
+
+/* Adobe Suite */
+
+.div-tech-inside-as{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-as{
+    background: #FF1800;
+}
+
+
+@keyframes animation-bar-as{
+
+    0%{
+        background: #FF1800;
+        width: 0%;
+    }
+
+    5%{
+        background: #FF1800;
+        width: 5%;
+    }
+    
+    10%{
+        background: #FF1800;
+        width: 10%;
+    }
+
+    15%{
+        background: #FF1800;
+        width: 15%;
+    }
+
+    20%{
+        background: #FF1800;
+        width: 20%;
+    }
+
+    25%{
+        background: #FF1800;
+        width: 25%;
+    }
+
+    30%{
+        background: #FF1800;
+        width: 30%;
+    }
+
+    35%{
+        background: #FF1800;
+        width: 35%;
+    }
+
+    40%{
+        background: #FF1800;
+        width: 40%;
+    }
+
+    45%{
+        background: #FF1800;
+        width: 45%;
+    }
+
+    50%{
+        background: #FF1800;
+        width: 50%;
+    }
+
+    55%{
+        background: #FF1800;
+        width: 55%;
+    }
+
+    60%{
+        background: #FF1800;
+        width: 60%;
+    }
+}
+
+/* Corel Draw */
+
+.div-tech-inside-cd{
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-cd{
+    background: #91E01C;
+}
+
+
+@keyframes animation-bar-cd{
+
+    0%{
+        background: #91E01C;
+        width: 0%;
+    }
+
+    5%{
+        background: #91E01C;
+        width: 5%;
+    }
+    
+    10%{
+        background: #91E01C;
+        width: 10%;
+    }
+
+    15%{
+        background: #91E01C;
+        width: 15%;
+    }
+
+    20%{
+        background: #91E01C;
+        width: 20%;
+    }
+
+    25%{
+        background: #91E01C;
+        width: 25%;
+    }
+
+    30%{
+        background: #91E01C;
+        width: 30%;
+    }
+
+    35%{
+        background: #91E01C;
+        width: 35%;
+    }
+
+    40%{
+        background: #91E01C;
+        width: 40%;
+    }
+
+    45%{
+        background: #91E01C;
+        width: 45%;
+    }
+
+    50%{
+        background: #91E01C;
+        width: 50%;
+    }
+
+    55%{
+        background: #91E01C;
+        width: 55%;
+    }
+
+    60%{
+        background: #91E01C;
+        width: 60%;
+    }
+}
+
+/* Filmora */
+
+.div-tech-inside-wf{
+    width: 85%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-skills:not(hover) .div-tech-inside-wf{
+    background: #56E4C2;
+}
+
+
+@keyframes animation-bar-wf{
+
+    0%{
+        background: #56E4C2;
+        width: 0%;
+    }
+
+    5%{
+        background: #56E4C2;
+        width: 5%;
+    }
+    
+    10%{
+        background: #56E4C2;
+        width: 10%;
+    }
+
+    15%{
+        background: #56E4C2;
+        width: 15%;
+    }
+
+    20%{
+        background: #56E4C2;
+        width: 20%;
+    }
+
+    25%{
+        background: #56E4C2;
+        width: 25%;
+    }
+
+    30%{
+        background: #56E4C2;
+        width: 30%;
+    }
+
+    35%{
+        background: #56E4C2;
+        width: 35%;
+    }
+
+    40%{
+        background: #56E4C2;
+        width: 40%;
+    }
+
+    45%{
+        background: #56E4C2;
+        width: 45%;
+    }
+
+    50%{
+        background: #56E4C2;
+        width: 50%;
+    }
+
+    55%{
+        background: #56E4C2;
+        width: 55%;
+    }
+
+    60%{
+        background: #56E4C2;
+        width: 60%;
+    }
+
+    65%{
+        background: #56E4C2;
+        width: 65%;
+    }
+
+    70%{
+        background: #56E4C2;
+        width: 70%;
+    }
+
+    75%{
+        background: #56E4C2;
+        width: 75%;
+    }
+
+    80%{
+        background: #56E4C2;
+        width: 80%;
+    }
+
+    85%{
+        background: #56E4C2;
+        width: 85%;
+    }
+}
+
+/* Hover Hovered */
+
+.section-skills .div-tech-inside-ps.hovered{
+    animation-name: animation-bar-ps;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-ai.hovered{
+    animation-name: animation-bar-ai;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-ae.hovered{
+    animation-name: animation-bar-ae;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-pr.hovered{
+    animation-name: animation-bar-pr;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-as.hovered{
+    animation-name: animation-bar-as;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-cd.hovered{
+    animation-name: animation-bar-cd;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.section-skills .div-tech-inside-wf.hovered{
+    animation-name: animation-bar-wf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
