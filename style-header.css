@@ -142,3 +142,12 @@
 body{
     background: #1C1D21;
 }
+
+.about .div-sm.hovered{
+    transform: translateY(-3px);
+}
+
+.about .a-sm.hovered{
+    color: #FFD046;
+    text-shadow: 3px 3px 5px #FFD046;
+}
