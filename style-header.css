@@ -58,6 +58,7 @@
     transform: translateY(-3px);
 }
 
+
 .div-sm:hover .a-sm{
     color: #FFD046;
     text-shadow: 3px 3px 5px #FFD046;
@@ -147,7 +148,7 @@ body{
     transform: translateY(-3px);
 }
 
-.about .a-sm.hovered{
+.about .div-sm>.a-sm.hovered{
     color: #FFD046;
     text-shadow: 3px 3px 5px #FFD046;
 }

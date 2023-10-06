@@ -95,7 +95,7 @@ window.addEventListener('scroll', () => {
         'section-skills .div-tech-inside-wf',
         'contact',
         'about .div-sm',
-        'about .a-sm'
+        'about .div-sm>.a-sm'
     ];
     applyHoverEffectOnScroll(classesToHover, 30);
 });
@@ -184,8 +184,24 @@ window.addEventListener('scroll', () => {
         'tech-abajo .div-tech-inside-ubuntu',
         'tech-abajo .div-tech-inside-windows',
         'tech-abajo .div-tech-inside-lan',
+        'section-skills',
+        'section-skills .div-tech-inside-ps',
+        'section-skills .div-tech-inside-ai',
+        'section-skills .div-tech-inside-ae',
+        'section-skills .div-tech-inside-pr',
+        'section-skills .div-tech-inside-as',
+        'section-skills .div-tech-inside-cd',
+        'section-skills .div-tech-inside-wf',
+        'contact',
+        'about .div-sm',
+        'about .a-sm',
     ];
     applyHoverEffectOnScrollFromBottom(classesToHover, 30);
 });
 
 applyHoverEffectOnScrollFromBottom(classesToHover, 30);
+
+
+
+
+
