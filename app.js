@@ -93,6 +93,7 @@ window.addEventListener('scroll', () => {
         'section-skills .div-tech-inside-as',
         'section-skills .div-tech-inside-cd',
         'section-skills .div-tech-inside-wf',
+        'contact',
     ];
     applyHoverEffectOnScroll(classesToHover, 30);
 });
