@@ -98,6 +98,42 @@
     border-radius: 20px;
 }
 
+.dic-tech-outside-html{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(-200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-css{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-boopt{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(-200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-js{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(200px);
+    transition: transform 1.5s ease;
+}
+
 .div-tech-inside-html{
     width: 85%;
     height: 20px;
@@ -521,6 +557,42 @@
     height: 60px; 
 }
 
+.dic-tech-outside-cs{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-sql{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(-200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-mysql{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(200px);
+    transition: transform 1.5s ease;
+}
+
+.dic-tech-outside-server{
+    height: 20px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transform: translateX(-200px);
+    transition: transform 1.5s ease;
+}
+
 .cshar-tech{
     filter: invert(14%) sepia(62%) saturate(2837%) hue-rotate(272deg) brightness(91%) contrast(94%);
 }
@@ -860,6 +932,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateY(150px);
+    transition: transform 1.5s ease;
 }
 
 .tech-sistemas{
@@ -1542,11 +1616,18 @@
 
 /* Hover Hovered */
 
+.tech-muestra .dic-tech-outside-html.hovered{
+    transform: translateX(0);
+}
 .tech-muestra .div-tech-inside-html.hovered{
     animation-name: animation-bar-html;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.tech-muestra .dic-tech-outside-css.hovered{
+    transform: translateX(0);
 }
 
 .tech-muestra .div-tech-inside-css.hovered{
@@ -1556,11 +1637,19 @@
     animation-fill-mode: forwards;
 }
 
+.tech-muestra .dic-tech-outside-boopt.hovered{
+    transform: translateX(0);
+}
+
 .tech-muestra .div-tech-inside-btp.hovered{
     animation-name: animation-bar-btp;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.tech-muestra .dic-tech-outside-js.hovered{
+    transform: translateX(0);
 }
 
 .tech-muestra .div-tech-inside-js.hovered{
@@ -1570,6 +1659,10 @@
     animation-fill-mode: forwards;
 }
 
+.tech-muestra .dic-tech-outside-cs.hovered{
+    transform: translateX(0);
+}
+
 .tech-muestra .div-tech-inside-cshar.hovered{
     animation-name: animation-bar-cshar;
     animation-duration: 1.5s;
@@ -1577,11 +1670,19 @@
     animation-fill-mode: forwards;
 }
 
+.tech-muestra .dic-tech-outside-sql.hovered{
+    transform: translateX(0);
+}
+
 .tech-muestra .div-tech-inside-sql.hovered{
     animation-name: animation-bar-sql;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.tech-muestra .dic-tech-outside-mysql.hovered{
+    transform: translateX(0);
 }
 
 .tech-muestra .div-tech-inside-mysql.hovered{
@@ -1597,6 +1698,15 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+.tech-muestra .dic-tech-outside-server.hovered{
+    transform: translateX(0);
+}
+
+.tech-abajo .section-sistemas.hovered{
+    transform: translateY(0);
+}
+
 
 .tech-abajo .div-tech-inside-hardwared.hovered{
     animation-name: animation-bar-hardwared;

@@ -25,6 +25,8 @@
 .section-skills{
     width: 100%;
     background: #1C1D21;
+    transform: translateX(-200px);
+    transition: transform 1.5s ease;
 }
 
 .div-img-skills{
@@ -684,6 +686,10 @@
 }
 
 /* Hover Hovered */
+
+.section-skills.hovered{
+    transform: translateX(0);
+}
 
 .section-skills .div-tech-inside-ps.hovered{
     animation-name: animation-bar-ps;
