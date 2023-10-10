@@ -12,7 +12,7 @@
 .header{
     height: 100px;
     display: flex;
-    background: #1C1D21;
+    background: #000000;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -43,7 +43,7 @@
 .navbar>div>a{
     font-size: 20px;
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 8px;
 }
 
@@ -137,18 +137,10 @@
 }
 
 .titulo-header>h1>a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 body{
-    background: #1C1D21;
+    background: #0A81D1;
 }
 
-.about .div-sm.hovered{
-    transform: translateY(-3px);
-}
-
-.about .div-sm>.a-sm.hovered{
-    color: #FFD046;
-    text-shadow: 3px 3px 5px #FFD046;
-}

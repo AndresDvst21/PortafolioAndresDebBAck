@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1C1D21;
+    background: #8884FF;
 }
 
 .titulo-tech>h2{
@@ -27,7 +27,7 @@
 /* Section Tech */
 .tech-muestra{
     width: 100%;
-    background: #1C1D21;
+    background: #8884FF;
 }
 
 /* Tech Arriba */
@@ -919,12 +919,14 @@
 
 .space-about-tech-2{
     height: 200px;
+    background: #8884FF;
 }
 
 .tech-abajo{
     width: 100%;
     display: flex;
     flex-direction: column;
+    background: #8884FF;
 }
 
 .section-sistemas{
@@ -934,6 +936,7 @@
     justify-content: center;
     transform: translateY(150px);
     transition: transform 1.5s ease;
+    background: #8884FF;
 }
 
 .tech-sistemas{
@@ -942,6 +945,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #8884FF;
 }
 
 .tech-sistemas>p{
@@ -1612,6 +1616,13 @@
         width: 60%;
     }
 
+}
+
+.space-about-tech-sk{
+    height: 500px;
+    width: 100%;
+    background: rgb(136,132,255);
+    background: linear-gradient(180deg, rgba(136,132,255,1) 0%, rgba(0,175,185,1) 100%);
 }
 
 /* Hover Hovered */

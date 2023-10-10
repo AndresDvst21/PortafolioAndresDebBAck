@@ -7,13 +7,20 @@
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 }
 
+.space-about-sk-ct{
+    width: 100%;
+    height: 500px;
+    background: rgb(0,175,185);
+    background: linear-gradient(180deg, rgba(0,175,185,1) 0%, rgba(10,129,209,1) 100%);
+}
+
 .titulo-contact{
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1C1D21;
+    background: #0A81D1;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     color: white;
@@ -21,7 +28,7 @@
 
 .contact{
     width: 100%;
-    background: #1C1D21;
+    background: #0A81D1;
     color: white;
 }
 
@@ -125,6 +132,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    background: #0A81D1;
 }
 
 .copy-1>div>img{
@@ -145,6 +153,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    background: #0A81D1;
 }
 
 .div-copy-2>a>img{
@@ -161,6 +170,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 1%;
+    background: #0A81D1;
 }
 
 .div-copy-2>a>img:hover{
